@@ -1,0 +1,42 @@
+.navbar {
+    position: relative;
+    background-color: #FDFFF0 !important;
+}
+
+body,html,#container {
+    height: 100%;
+}
+
+#container {
+    min-height: 100%;
+}
+
+#top_div {
+    height: 50%;
+    width: 100%;
+    background-color: #C2E8FF;
+    margin: auto;
+}
+
+#bottom_div {
+    height: 50%;
+    width: 100%;
+    background-color: #FFDBDC;
+    margin: auto;
+}
+#buy{
+    font-family: 'Oswald', sans-serif; 
+    font-size: 112px; 
+    bottom:50%;
+    position: absolute;
+    margin-left:20%; 
+    color:#212529
+}
+
+#sell{
+    font-family: 'Oswald', sans-serif;
+    font-size: 112px;
+    bottom:18%; float: right;
+    margin-right:20%;
+    color:#212529
+}
